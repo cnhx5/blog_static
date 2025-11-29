@@ -1,0 +1,27 @@
+# Site settings
+title: "My Personal Blog"       # Your blog title
+email: cnhx5@outlook.com   # Your email (optional)
+description: >-                 # Blog description (multi-line)
+  A personal blog about tech, life, and coding.
+baseurl: ""                     # Leave empty for root domain (your-username.github.io)
+url: "https://cnhx5.github.io"  # Replace with your site URL
+github_username: cnhx5  # Your GitHub username
+
+# Build settings
+theme: minima                   # Default Jekyll theme (simple & clean)
+plugins:
+  - jekyll-feed                 # RSS feed (optional)
+  - jekyll-seo-tag              # SEO optimization (optional)
+
+# Permalink structure (URL for blog posts)
+permalink: /:year/:month/:day/:title/
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
